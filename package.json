@@ -1,0 +1,23 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "A command-line application to generate a HTML page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AliceBryer/Team-Profile-Generator.git"
+  },
+  "author": "Alice Bryer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AliceBryer/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AliceBryer/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.1"
+  }
+}

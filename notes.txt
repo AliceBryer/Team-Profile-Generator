@@ -1,0 +1,26 @@
+Node.js command line
+software engineering team
+summary html page
+unit testing
+walkthrough video
+
+User Story
+
+AS A manager
+I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles
+
+email address - which opens correctly 
+git hub username - which opens lik in new tab
+team managers name, employee ID, email address & office number
+option to add an enginnerr or an intern 
+
+engineer option - name, ID, email , GitHub
+intern option - name, ID, email and school, 
+
+keep going until you decide to finish building the team.
+
+exit application & HTML generated.
+
+JEST 
+INQUIRER
