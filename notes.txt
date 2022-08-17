@@ -11,7 +11,7 @@ I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 
 email address - which opens correctly 
-git hub username - which opens lik in new tab
+git hub username - which opens link in new tab
 team managers name, employee ID, email address & office number
 option to add an enginnerr or an intern 
 
