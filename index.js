@@ -159,7 +159,7 @@ const website = `<html lang="en">
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="/dist/assets/css/styles.css" >
+  <link rel="stylesheet" href="dist/assets/css/styles.css" >
 </head>
 <body>
   <header>
@@ -203,11 +203,11 @@ const website = `<html lang="en">
     <section>
       <div class="intern-card">
         <div class="intern-top-card">
-          <h2 class="name"></h2>
+          <h2 class="name">MOLLY HARRIS</h2>
           <h3 class="job-title">Intern</h3>
         </div>
         <div class="info-container">
-          <div class="info-content"></div>
+          <div class="info-content">ID: 023</div>
           <div class="info-content">
             <a href="mailto:molly@gmail.com">EMAIL: molly@gmail.com</a>
           </div>
