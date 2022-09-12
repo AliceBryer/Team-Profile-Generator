@@ -149,8 +149,7 @@ const addEngineer = () => {
 };
 
 const buildWebsite = () => {
-  console.log("buildingWebsite123");
-  //   //   fs.writeFileSync("index.html", generateHTML(answers))
-  //   //     .then(() => console.log("successfully index.html."))
-  //   //     .catch((err) => console.error(err));
-};
+fs.writeFile('index.html', '', function (err) {
+    if (err) throw err;
+    console.log('Your team-profile is ready to view');
+  });
