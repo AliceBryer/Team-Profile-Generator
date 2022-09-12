@@ -7,7 +7,7 @@ This application allows the user to create a team profile page, by answering que
 ## Usage
 
 ```
-
+After running a npm install
 In your terminal run the command `node index.js`
 
 ```
