@@ -10,4 +10,5 @@ describe("Manager", () => {
       expect(manager.email).toEqual(expect.any(String));
       expect(manager.officeNumber).toEqual(expect.any(Number));
     });
-  })
+  });
+});

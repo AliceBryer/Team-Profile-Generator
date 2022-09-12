@@ -10,5 +10,4 @@ describe("Employee", () => {
       expect(employee.email).toEqual(expect.any(String));
     });
   });
-
- 
+});
