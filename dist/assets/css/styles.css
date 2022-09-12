@@ -1,0 +1,140 @@
+
+
+:root {
+--tyrian-purple: #5f0f40ff;
+--ruby-red: #9a031eff;
+--dark-orange: #fb8b24ff;
+--jet: #353535ff;
+--ming: #3c6e71ff;
+--gainsboro: #d9d9d9ff;
+--independence: rgb(15, 29, 120);
+--heliotrope-gray: #9a8c98ff;
+--silver-pink: #c9ada7ff;
+}
+
+body {
+    background-color:white;
+}
+
+/* HEADER STYLING */
+
+header {
+    background-color: #49982E;
+    height:200px;
+    width:100%;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+/* container styling & positioning  */
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: center;
+
+}
+
+/* manager card styling */
+
+.title {
+    text-align: center;
+    color:white;
+    letter-spacing:8px;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.manager-card {
+    background-color:var(--tyrian-purple);
+    width:380px;
+    height:460px;
+    position:relative;
+    margin: 40px;
+}
+
+.top-card {
+    background-color:var(--ruby-red);
+    height:90px;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+.name {
+    padding-top:0.6rem;
+    font-size:1.5rem;
+}
+
+.job-title {
+    padding-bottom:0.6rem;
+    font-style: italic;
+}
+
+.info-container {
+    background-color:var(--heliotrope-gray);
+    height:310px;
+    width:290px;
+    padding:20px;
+    margin:30px;
+    position:absolute;
+    right:-5px;
+    bottom:-20px;
+    
+    
+}
+
+.info-content {
+    background-color: var(--gainsboro);
+    margin-bottom:15px;
+    padding:20px;
+    color:var(--ruby-red);
+    font-style:bold;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+
+/* engineer card styling */
+
+.engineer-card {
+    background-color:var(--jet);
+    width:380px;
+    height:460px;
+    position:relative;
+    margin: 40px;
+}
+
+.engineer-top-card {
+    background-color:var(--ming);
+    height:90px;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+/* intern styling */
+
+.intern-card {
+    background-color:var(--independence);
+    width:380px;
+    height:460px;
+    position:relative;
+    margin: 40px;
+}
+
+.intern-top-card {
+    background-color:var(--silver-pink);
+    height:90px;
+    color:white;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-family:'Montserrat', sans-serif;
+}
+
