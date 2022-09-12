@@ -1,47 +1,35 @@
-# ncb 
-
+# Team Profile Generator
 
 ## Description
 
-esrdgdf
-
-## Table of Contents
-
-| Section| About that section |
-|----------- | ----------- |
-|[Description](#description)| More information about the application |
-|[Features](#features)| Find out what features this application has |
-|[Installation](#installation)| Instructions on how to install the application  |
-  [Usage](#usage)| Find out how you can start using the application |
-  [License](#license)| Find out how you can start using the application |
-  [Contribution](#contributing)| Find out how you can contribute to the project |
-[Tests](#tests)| Find out what tests you can run to ensure its working correctly |
-[Credits](#credits)| XXXXXXXXXXXXXXx |
-[Questions](#questions)| How you can get in touch if you have any questions
-
-## Features
-tfhfg
-
-## Installation
-
-drghdgfh
+This application allows the user to create a team profile page, by answering questions in the cli.
 
 ## Usage
 
-drfhdghj
+```
 
-## License 
-This project is covered by 
+In your terminal run the command `node index.js`
 
-## Contributing
-dfghj
+```
 
-## Tests
-fghijo
+## Technologies Used
 
-## Credits 
-derftghjuk
+HTML, CSS, JS,
+Node, Inquirer, fs
 
+## Credits
+
+I have achieved this application with support from the University of Birmingham's coding bootcamp course content.
+
+## Screenshots
+
+![Alt](./assets/Screenshot%202022-09-12%20174118.jpg)
+
+## Video Link
+
+https://drive.google.com/file/d/1Gx7zAIxktswhEojc44tS9wom8NkBnuDk/view
 
 ## Questions
-If you have any questions you can reach me either on email dftgyhjukl or please see my [Github Profile](www.github.com/dfgthjuk)
+
+- **Email**: alicebryer123@gmail.com
+- **linkedin**: https://www.linkedin.com/in/alice-bryer-7aa760233/
