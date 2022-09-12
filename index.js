@@ -115,7 +115,6 @@ const addManager = () => {
     );
     managersArray.push(answers);
 
-    console.log(managersArray);
     return promptUser();
   });
 };
@@ -129,7 +128,7 @@ const addIntern = () => {
       answers.school
     );
     internArray.push(answers);
-    console.log(internArray);
+
     return promptUser();
   });
 };
@@ -143,7 +142,7 @@ const addEngineer = () => {
       answers.officeNumber
     );
     engineerArray.push(answers);
-    console.log(engineerArray);
+
     return promptUser();
   });
 };
@@ -174,7 +173,7 @@ const website = `<html lang="en">
           <h3 class="job-title">Manager</h3>
         </div>
         <div class="info-container">
-          <div class="info-content">Id:001</div>
+          <div class="info-content">ID: 001</div>
           <div class="info-content">
             <a href="mailto: chris@gmail.com">EMAIL: chris@gmail.com </a>
           </div>
@@ -204,11 +203,11 @@ const website = `<html lang="en">
     <section>
       <div class="intern-card">
         <div class="intern-top-card">
-          <h2 class="name">MOLLY BAKER</h2>
+          <h2 class="name"></h2>
           <h3 class="job-title">Intern</h3>
         </div>
         <div class="info-container">
-          <div class="info-content">ID: 023</div>
+          <div class="info-content"></div>
           <div class="info-content">
             <a href="mailto:molly@gmail.com">EMAIL: molly@gmail.com</a>
           </div>
@@ -219,8 +218,6 @@ const website = `<html lang="en">
   </div>
 </body>
 </html>`;
-
-console.log(managersArray.name);
 
 const buildWebsite = () => {
   fs.writeFile("index.html", website, function (err) {
