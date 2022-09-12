@@ -148,8 +148,83 @@ const addEngineer = () => {
   });
 };
 
+const website = `<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> TEAM PROFILE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/dist/assets/css/styles.css" >
+</head>
+<body>
+  <header>
+    <h1 class="title">MY TEAM</h1>
+  </header>
+<div class="container">
+    <section>
+      <div class="manager-card">
+        <div class="top-card">
+          <h2 class="name">Chris Jones</h2>
+          <h3 class="job-title">Manager</h3>
+        </div>
+        <div class="info-container">
+          <div class="info-content">Id:001</div>
+          <div class="info-content">
+            <a href="mailto: chris@gmail.com">EMAIL: chris@gmail.com </a>
+          </div>
+          <div class="info-content">01922 447237</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="engineer-card">
+        <div class="engineer-top-card">
+          <h2 class="name">DAVE SMITH</h2>
+          <h3 class="job-title">Engineer</h3>
+        </div>
+        <div class="info-container">
+          <div class="info-content">ID: 019</div>
+          <div class="info-content">
+            <a href="mailto:dave@gmail.com">EMAIL: dave@gmail.com</a>
+          </div>
+          <div class="info-content">
+            <a href="https://github.com/">Github Profile</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="intern-card">
+        <div class="intern-top-card">
+          <h2 class="name">MOLLY BAKER</h2>
+          <h3 class="job-title">Intern</h3>
+        </div>
+        <div class="info-container">
+          <div class="info-content">ID: 023</div>
+          <div class="info-content">
+            <a href="mailto:molly@gmail.com">EMAIL: molly@gmail.com</a>
+          </div>
+          <div class="info-content">School: Shire Oak Academy</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>`;
+
+console.log(managersArray.name);
+
 const buildWebsite = () => {
-fs.writeFile('index.html', '', function (err) {
+  fs.writeFile("index.html", website, function (err) {
     if (err) throw err;
-    console.log('Your team-profile is ready to view');
+    console.log("Your team-profile is ready to view");
   });
+};
