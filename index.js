@@ -20,10 +20,10 @@ const promptUser = () => {
         addIntern();
       }
       if (answer.action === "add Engineer") {
-        console.log("adding engineer");
+        addEngineer();
       }
       if (answer.action === "Build website") {
-        console.log("Building website");
+        buildWebsite();
       }
     });
 };
@@ -65,13 +65,13 @@ const addManager = () => {
         addManager();
       }
       if (answer.action === "add Intern") {
-        console.log("adding intern");
+        addIntern();
       }
       if (answer.action === "add Engineer") {
-        console.log("adding engineer");
+        addEngineer();
       }
       if (answer.action === "Build website") {
-        console.log("Building website");
+        buildWebsite();
       }
     });
 };
@@ -114,36 +114,36 @@ const addIntern = () => {
         addIntern();
       }
       if (answer.action === "add Engineer") {
-        console.log("adding engineer");
+        addEngineer();
       }
       if (answer.action === "Build website") {
-        console.log("Building website");
+        buildWebsite();
       }
     });
 };
 
-const addIntern = () => {
+const addEngineer = () => {
   return inquirer
     .prompt([
       {
         type: "input",
         name: "name",
-        message: "What is the interns name? ",
+        message: "What is the engineers name? ",
       },
       {
         type: "input",
         name: "id",
-        message: "Enter the id of the intern ",
+        message: "Enter the id of the engineer ",
       },
       {
         type: "input",
         name: "email",
-        message: "What is the interns email address? ",
+        message: "What is the engineers email address? ",
       },
       {
         type: "input",
-        name: "school",
-        message: "What school do they attend? ",
+        name: "github",
+        message: "What is their Github username? ",
       },
       {
         type: "list",
@@ -160,10 +160,14 @@ const addIntern = () => {
         addIntern();
       }
       if (answer.action === "add Engineer") {
-        console.log("adding engineer");
+        addEngineer();
       }
       if (answer.action === "Build website") {
-        console.log("Building website");
+        buildWebsite();
       }
     });
+};
+
+const buildWebsite = () => {
+  console.log("building website");
 };
